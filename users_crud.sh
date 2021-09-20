@@ -3,6 +3,7 @@
 echo "Bienvenido al gestor de usuarios de 'Che, ¿hoy donamos?'"
 echo "1)Agregar usuario         2)Ver usuarios"
 echo "3)Modificar un usuario    4)Eliminar un usuario"
+echo "S)Salir"
 
 read -p  "Seleccione una opcion: " input
 
@@ -33,5 +34,7 @@ case $input in
     b)
     ;;
     esac
+  ;;
+  S)
   ;;
 esac

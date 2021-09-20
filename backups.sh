@@ -6,6 +6,7 @@ SOURCE="$1"
 s="_"
 
 echo "Bienvenido $USER , al scrpit de respaldo de archivos de 'Che, ¿hoy donamos?'"
+echo "Ctrl +C para salir..."
 
 if [ -d /home/$USER/backups/ ];
 then
