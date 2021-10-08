@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Solucionando problema 2002 con MYSQL..."
 echo "Deteniendo NGINX"
 echo $(systemctl stop nginx)
