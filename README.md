@@ -10,7 +10,7 @@ Scripts de control del serivdor.
 - Clonar este repositorio
 
 ```bash
-git clone https://github.com/facorrea700/sistemas-hoydonamos
+git clone https://github.com/Anima-Tec/2021_Proyecto_Integrador_Equipo_3-Sistemas
 ```
 - Ir a la carpeta root del proyecto
 ```bash
