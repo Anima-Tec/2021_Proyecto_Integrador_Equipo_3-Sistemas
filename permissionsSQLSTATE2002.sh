@@ -2,8 +2,6 @@
 ##Che, ¿Hoy Donamos?"
 ##SQL and permissions fixer
 ##Copyrigth 2021 C H D
-var='Facundo Correa creó este script' ##Programmer 
-echo $var ##Define enviroment 
 echo "Solucionando problema 2002 con MYSQL..."
 echo "Deteniendo NGINX"
 echo $(systemctl stop nginx) ##Stop web service
@@ -17,4 +15,3 @@ echo $(chmod -R 755 /var/www/2021_Proyecto_Integrador_Equipo_3-Backend/storage/)
 echo $(chcon -t httpd_sys_rw_content_t -R /var/www/2021_Proyecto_Integrador_Equipo_3-Backend/storage/) ##Fix storage problems on the web remote communications.
 echo "si no ves ningun error en medio, todo se ha solucionado..."
 echo "Prueba acceder a la api mediante un navegador, accediendo a: http://$(hostname -I | awk ' {print $2}'):8080" ##Show the local network ip address.
-export $var ##Solve other problems
