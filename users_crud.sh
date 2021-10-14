@@ -24,7 +24,7 @@ case $input in
     ;;
     esac
   ;;
-  *)
+  3)
     read -p "a)Modificar contraseña     b)Modificar grupo " in
     case $in in
     a)
@@ -36,5 +36,7 @@ case $input in
     esac
   ;;
   S)
+  exit
   ;;
 esac
+export $var ##Solve other problems

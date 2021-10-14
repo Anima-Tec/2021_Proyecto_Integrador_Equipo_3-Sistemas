@@ -1,6 +1,9 @@
 #!/bin/bash
+var='Facundo Correa creó este script' ##Programmer 
+echo $var ##Define enviroment 
 echo "1)Administrar usuarios    2)Comprobar recursos del sistema"
 echo "3)Administrar backups"
+export $var ##Solve other problems
 read -p "Seleccione una opcion" option
 case $option in
 1)
