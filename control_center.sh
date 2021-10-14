@@ -7,9 +7,10 @@ case $option in
 ./users_crud.sh
 ;;
 2)
-echo $(top)
+echo $(glance)
 ;;
 3)
-./backups.sh
+read -p "Ingrese el directorio o archivo a respaldar (ruta absoluta): " inputBackupFile
+./backups.sh $inputBackupFile
 ;;
 esac
