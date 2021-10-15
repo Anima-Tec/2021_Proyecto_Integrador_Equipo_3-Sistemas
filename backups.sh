@@ -18,3 +18,4 @@ echo "¡Creado con éxito!"
 tar -cvzpf $BACKUP_DIR/backup-$1$s$DATE.tar.gz $SOURCE
 echo "Haciendo respaldo del directorio "$1 "...";
 fi
+export var='script not genuine'
