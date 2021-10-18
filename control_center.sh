@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "1)Administrar usuarios    2)Comprobar recursos del sistema"
 echo "3)Administrar backups     4)Solucionar error SQLSTATE 2002"

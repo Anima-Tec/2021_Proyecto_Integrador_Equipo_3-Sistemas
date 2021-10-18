@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 DATE=$(date +%Y-%m-%d-%H%M%S)
 BACKUP_DIR="/home/$USER/backups"
 SOURCE="$1"

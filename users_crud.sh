@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Bienvenido al gestor de usuarios de 'Che, ¿hoy donamos?'"
 echo "1)Agregar usuario         2)Ver usuarios"
