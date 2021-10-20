@@ -8,7 +8,7 @@ case $option in
 ./users_crud.sh
 ;;
 2)
-glances
+glances --disable-sensors --hide-kernel-threads --disable-network --disable-hddtemp --disable-process --disable-log --disable-docker
 ;;
 3)
 read -p "Ingrese el directorio o archivo a respaldar (ruta absoluta): " inputBackupFile
