@@ -1,0 +1,15 @@
+#***SQLSTATE2002».service***
+[Unit]
+Description=»Service to fix SQLSTATE2002»
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/etc/SQLSTATE2002»/permissionsSQLSTATE2002.sh
+User=root
+WorkingDirectory=/etc/SQLSTATE2002»
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
