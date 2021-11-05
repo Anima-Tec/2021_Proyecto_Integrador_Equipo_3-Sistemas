@@ -1,4 +1,3 @@
-#!/bin/sh
 ##Che, ¿Hoy Donamos?"
 ##SQL and permissions fixer
 ##Copyrigth 2021 C H D
