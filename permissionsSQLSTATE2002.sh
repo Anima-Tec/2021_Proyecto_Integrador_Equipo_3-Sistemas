@@ -4,8 +4,8 @@
 echo "Solucionando problema 2002 con MYSQL..."
 echo "Deteniendo NGINX"
 echo $(systemctl stop nginx) ##Stop web service
-echo $(setsebool httpd_can_network_connect 1) ##Allow remote web connections.
-echo $(setsebool httpd_can_network_connect_db 1) ##Allow remote connections with database.
+echo $(setsebool -p httpd_can_network_connect 1) ##Allow remote web connections.
+echo $(setsebool -p httpd_can_network_connect_db 1) ##Allow remote connections with database.
 echo "Iniciando NGINX nuevamente"
 echo $(systemctl start nginx)   ##Start web service
 echo "Reparando permisos de storage/"
