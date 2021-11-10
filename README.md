@@ -14,7 +14,7 @@ git clone https://github.com/Anima-Tec/2021_Proyecto_Integrador_Equipo_3-Sistema
 ```
 - Ir a la carpeta root del proyecto
 ```bash
-cd sistemas-hoydonamos
+cd .\2021_Proyecto_Integrador_Equipo_3-Sistemas\
 ```
 
 - Darle permisos de ejecución a los archivos. 
